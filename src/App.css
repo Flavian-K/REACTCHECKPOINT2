@@ -1,38 +1,44 @@
+/* App.css */
+
+/* Main App styling */
 .App {
-  text-align: center;
+	text-align: center;
+	background-color: #1034a6; /* Egyptian Blue */
+	color: #ffffff; /* White text for contrast */
+	font-family: Arial, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
+/* Header */
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
 }
 
+/* Links */
 .App-link {
-  color: #61dafb;
+	color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Card styling */
+.card {
+	background-color: #1f3d7a; /* Darker shade of Egyptian Blue */
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(16, 52, 166, 0.3); /* Egyptian blue shadow */
+}
+
+/* Card Image */
+.card-img-top {
+	border-radius: 10px 10px 0 0;
+}
+
+/* Card Body */
+.card-body {
+	color: #c8d6fa; /* Light Egyptian blue for readability */
 }
